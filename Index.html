@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💻 Web3 Developer Portfolio</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: #f8fafc; margin: 0; padding: 0; text-align: center; }
+        .hero { background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%); padding: 60px 20px; border-bottom: 1px solid #1e293b; }
+        .hero h1 { font-size: 36px; margin: 0; color: #38bdf8; }
+        .hero p { font-size: 18px; color: #94a3b8; margin: 10px 0 20px 0; }
+        .badge { background-color: #0369a1; color: #e0f2fe; padding: 6px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; display: inline-block; margin: 5px; }
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 30px; }
+        .project-card { background-color: #1e293b; padding: 25px; border-radius: 12px; text-align: left; border: 1px solid #334155; transition: transform 0.2s, border-color 0.2s; }
+        .project-card:hover { transform: translateY(-5px); border-color: #38bdf8; }
+        .project-icon { font-size: 32px; margin-bottom: 10px; display: block; }
+        .project-title { font-size: 18px; font-weight: bold; color: #f1f5f9; margin-bottom: 8px; }
+        .project-desc { font-size: 14px; color: #94a3b8; line-height: 1.5; margin-bottom: 15px; }
+        .tech-tag { font-size: 11px; background-color: #0f172a; color: #38bdf8; padding: 4px 8px; border-radius: 4px; font-weight: bold; margin-right: 5px; border: 1px solid #1e293b; }
+        .footer { padding: 4px; margin-top: 60px; border-top: 1px solid #1e293b; font-size: 14px; color: #64748b; background-color: #0b0f19;}
+        .btn-contact { background-color: #10b981; color: white; border: none; padding: 12px 24px; font-size: 16px; border-radius: 6px; cursor: pointer; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 15px; }
+        .btn-contact:hover { background-color: #059669; }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>👋 Web3 Smart Contract Engineer</h1>
+        <p>Designing secure, decentralized architectures & interactive dApp interfaces.</p>
+        <div>
+            <span class="badge">Solidity</span>
+            <span class="badge">Ethereum VM</span>
+            <span class="badge">MetaMask Integration</span>
+            <span class="badge">Web3 UI/UX</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>📦 Deployed DApp Repositories</h2>
+        <p style="color: #64748b; margin-top: -10px;">All software assets are fully compiled, sandbox-tested, and locked into local system archives.</p>
+        
+        <div class="grid">
+            <div class="project-card">
+                <span class="project-icon">💼</span>
+                <span class="project-title">Freelance Escrow Hub</span>
+                <p class="project-desc">A decentralized marketplace utilizing escrow vaults. Client funds are locked securely and released to the freelancer automatically upon state approval parameters, eliminating payment fraud.</p>
+                <div><span class="tech-tag">Solidity</span><span class="tech-tag">Escrow Vault</span></div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-icon">🏦</span>
+                <span class="project-title">Decentralized Crypto Bank</span>
+                <p class="project-desc">A secure financial reserve engine tracking individual savings balances down to Wei data parameters. Features input fields accepting native test currencies securely.</p>
+                <div><span class="tech-tag">Solidity</span><span class="tech-tag">Balances Mapping</span></div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-icon">🚗</span>
+                <span class="project-title">P2P Ride Share Pool</span>
+                <p class="project-desc">A peer-to-peer car booking system utilizing map indexing state variables. Features time-bound rental tracking, booking collision blocks, and dynamic interface status badges.</p>
+                <div><span class="tech-tag">Solidity</span><span class="tech-tag">State Variables</span></div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-icon">🗳️</span>
+                <span class="project-title">Secure Voting Ledger</span>
+                <p class="project-desc">An election ballot tracking application with bulletproof cryptographic fraud checks. Implements mapping logs that permanently prevent duplicate voting attempts per wallet.</p>
+                <div><span class="tech-tag">Solidity</span><span class="tech-tag">Fraud Prevention</span></div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-icon">🎨</span>
+                <span class="project-title">Digital NFT Vault</span>
+                <p class="project-desc">A digital asset repository contract that registers unique token ownership mappings and mirrors real-time IPFS artwork metadata pathways cleanly on-chain.</p>
+                <div><span class="tech-tag">Solidity</span><span class="tech-tag">ERC-721 Logic</span></div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-icon">📈</span>
+                <span class="project-title">Smart Crowdfund Engine</span>
+                <p class="project-desc">A modular fundraising manager tracking targeted milestones, block countdown clocks, and investor contribution logs with automatic safety refund algorithms built in.</p>
+                <div><span class="tech-tag">Solidity</span><span class="tech-tag">Escrow Logic</span></div>
+            </div>
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #1e293b; margin: 50px 0;">
+
+        <h2>📩 Let's Build Something Secure</h2>
+        <p style="color: #94a3b8; max-width: 600px; margin: 0 auto 15px auto;">Looking for custom smart contract deployments, secure architectural code reviews, or web3 frontend integrations? Let's connect!</p>
+        <a href="https://x.com" id="twitterLink" target="_blank" class="btn-contact">💬 Contact Me via Twitter/X</a>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 Web3 Portfolio Matrix. Verified On-Chain Assets.</p>
+    </div>
+
+</body>
+</html>
